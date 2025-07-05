@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Details - BriansClub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    aside.sidebar {
+      background-color: #222;
+      color: #fff;
+      padding: 1rem;
+      width: 220px;
+      float: left;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+
+    aside.sidebar h1 {
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+
+    aside.sidebar nav a {
+      display: block;
+      color: #ddd;
+      text-decoration: none;
+      margin: 0.5rem 0;
+      font-size: 0.95rem;
+    }
+
+    aside.sidebar nav a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    main.main {
+      margin-left: 220px;
+      padding: 2rem;
+      box-sizing: border-box;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .tag-container {
+      margin: 1rem 0;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #ddd;
+      color: #555;
+      padding: 0.25rem 0.5rem;
+      margin-right: 0.5rem;
+      border-radius: 3px;
+      font-size: 0.85rem;
+    }
+
+    .case-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .left-panel,
+    .right-panel {
+      flex: 1 1 300px;
+      min-width: 300px;
+      background-color: #fff;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+
+    .main-image {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+
+    .section {
+      margin-bottom: 1.5rem;
+    }
+
+    .section h3 {
+      margin-top: 0;
+      color: #444;
+    }
+
+    .overview-card {
+      background-color: #f2f2f2;
+      padding: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-bottom: 1.5rem;
+    }
+
+    .overview-card h4 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: #555;
+    }
+
+    .overview-item {
+      margin-bottom: 0.75rem;
+    }
+
+    .overview-item strong {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 0.25rem;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      margin-right: 0.5rem;
+      border-radius: 3px;
+      font-size: 0.9rem;
+    }
+
+    .download-btn:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 768px) {
+      aside.sidebar {
+        width: 100%;
+        height: auto;
+        float: none;
+      }
+
+      main.main {
+        margin-left: 0;
+      }
+
+      .case-container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <h1>Digital Museum</h1>
+    <nav>
+      <a href="index.html">Museum Home</a>
+      <a href="#">Timeline</a>
+      <a href="#">Search Archive</a>
+      <a href="#">Statistics</a>
+      <a href="#">About</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <h2>BriansClub</h2>
+    <div class="tag-container">
+      <span class="tag">High Impact</span>
+      <span class="tag">Fraud</span>
+      <span class="tag">Ongoing Investigation</span>
+    </div>
+
+    <div class="case-container">
+      <!-- LEFT PANEL -->
+      <div class="left-panel">
+        <img src="test.jpg" alt="BriansClub Seizure Screenshot" class="main-image" />
+
+        <div class="section">
+          <h3>Case Summary</h3>
+          <p>BriansClub was a major carding site that sold stolen credit card information before being shut down by U.S. authorities. It trafficked millions of credit cards on the dark web, causing widespread financial damage before its seizure.</p>
+        </div>
+
+        <div class="section">
+          <h3>Operational Details</h3>
+          <p>This site was seized by the Federal Bureau of Investigation and U.S. Secret Service. The operation involved extensive international coordination and undercover purchases to gather evidence.</p>
+        </div>
+
+        <div class="section">
+          <h3>Legal Proceedings</h3>
+          <p><strong>Charges Filed:</strong> Credit card fraud, identity theft, money laundering</p>
+          <p><strong>Status:</strong> Ongoing investigation with multiple suspects under surveillance.</p>
+        </div>
+      </div>
+
+      <!-- RIGHT PANEL -->
+      <div class="right-panel">
+        <div class="overview-card">
+          <h4>Data Overview</h4>
+          <div class="overview-item">
+            <strong>Seizure Date</strong>
+            <span>June 15, 2021</span>
+          </div>
+          <div class="overview-item">
+            <strong>Domain</strong>
+            <span>briansclub.cn</span>
+          </div>
+          <div class="overview-item">
+            <strong>Location</strong>
+            <span>United States</span>
+          </div>
+          <div class="overview-item">
+            <strong>Users Affected</strong>
+            <span>26,000,000+</span>
+          </div>
+          <div class="overview-item">
+            <strong>Arrests Made</strong>
+            <span>Data not disclosed</span>
+          </div>
+        </div>
+        
+        <div class="section">
+          <h3>Downloads</h3>
+          <a href="#" class="download-btn">Case Report PDF</a>
+          <a href="#" class="download-btn">Legal Documents</a>
+          <a href="#" class="download-btn">Evidence Gallery</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
